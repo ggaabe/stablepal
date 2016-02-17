@@ -1,0 +1,198 @@
+header {
+color: #1589FF;
+background-image: url('images/header1.png');
+background-size: 100% 100%;
+line-height: 6.5em;
+}
+
+img.send {
+size: 100%;
+}
+
+div.send{
+background-image: url('images/send.png');
+background-size: 100% 100%;
+width: 100%;
+height: 23em;
+}
+
+div.ordernow{
+margin-top: 5%;
+margin-bottom: 5%;
+font-family: Tw Cen MT;
+margin-left: auto;
+margin-right: auto;
+font-weight: bold;
+text-align: center;
+color: white;
+font-size: 5em;
+width: 8em;
+height: 1.2em;
+background-color: teal;
+border-radius: 10px;
+}
+
+div.ordernow:hover{
+
+background-color: turquoise;
+}
+
+a {
+text-decoration: none;
+}
+
+div.how {
+text-align: center;
+font-weight: bold;
+font-size: 3em;
+font-family: Tw Cen MT;
+width: 100%;
+color: white;
+background-color: #FF6600;
+}
+
+div.explanation{
+margin-top: 0;
+margin-left: auto;
+margin-right: auto;
+color: white;
+font-weight: bold;
+background-color: #FF8330;
+text-align: center;
+width: 80%;
+font-size: 2em;
+font-family: Tw Cen MT;
+border-radius: 0px 0px 10px 10px;
+}
+
+body.order{
+background-color: #F2F2F2;
+}
+
+
+
+.right2 {
+margin-left: 5px;
+float: left;
+display: inline-block;
+}
+				
+.right {
+margin-left: 5px;
+float: left;
+display: inline-block;
+}
+				
+.left {
+display: inline-block;
+float: left;
+}
+
+.buttons{
+margin-left: 5px;
+float: left;
+display: inline-block;
+clear: both;
+}
+
+.ordercenter{
+margin-left: 35%;
+margin-right: auto%;
+}
+
+#submit{
+clear: both;
+font-family: Tw Cen MT;
+font-weight: bold;
+text-align: center;
+color: white;
+font-size: 3em;
+width: 8em;
+height: 1.2em;
+background-color: teal;
+border-radius: 10px;
+}
+
+#submit:hover {
+background-color: lime;
+}
+
+#clear {
+margin-left: 15%;
+clear: both;
+font-family: Tw Cen MT;
+font-weight: bold;
+text-align: center;
+color: white;
+font-size: 3em;
+width: 4em;
+height: 1.2em;
+background-color: teal;
+border-radius: 10px;
+}
+
+#clear:hover{
+background-color: red;
+}
+
+.topthank{
+color: #FF6600;
+background-color: #FF6600;
+height: 2em;
+width: 60%;
+border-radius: 10px 10px 0px 0px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.topthankwhite{
+background-color: white;
+height: .75em;
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.ordercomplete{
+font-family: Tw Cen Mt;
+font-weight: bold;
+text-align: center;
+color: white;
+background-color: teal;
+height: 1.2em;
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+font-size: 4em;
+text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.bottomorange{
+font-family: Tw Cen Mt;
+font-weight: bold;
+text-align: center;
+color: white;
+background-color: #FF6600;
+height: 15em;
+border-radius: 0px 0px 15px 15px;
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+font-size: 1.5em;
+text-shadow: black 0.1em 0.1em 0.2em;
+clear: right;
+}
+
+.happyman{
+width: 78px;
+height: 130px;
+position: absolute;
+float: right;
+display: inline-block;
+overflow: right;
+}
+
+div h1{
+font-size: 3em;
+vertical-align: middle;
+}

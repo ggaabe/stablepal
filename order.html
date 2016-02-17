@@ -1,0 +1,89 @@
+<!--
+StableCoin Forums
+-->
+<html>
+<head>
+<title>StablePal</title>
+</head>
+<link rel="stylesheet" href="stylesheet.css" type="text/css" />
+
+<body class="order">
+
+<a href="index.html">
+<header>
+.</header>
+</a>
+
+
+<div class="ordercenter">
+
+<script>
+function validateForm()
+{
+var x=document.forms["order_form"]["email"].value;
+
+if (x==null || x=="")
+  {
+  alert("Email is required.\nAn email address prevents your order from being marked as spam.");
+  return false;
+  }
+
+
+}
+</script>
+<!--var y=document.forms["my_form"]["comments"].value;-->
+
+ <!-- if (y==null || y=="")
+  {
+  alert("comments must be filled out");
+  return false;
+  }
+  -->
+
+<form name="order_form" method="POST" action="mail.php" onsubmit="return validateForm()">
+<div class="left">
+<p>Name:</p>
+<input name="name" placeholder="Full Name" type="text" />
+<p>Email:</p>
+<input name="email" placeholder="Email Address" type="text" />
+<p>Item Name:</p>
+<input name="itemname" placeholder="Item Name" type="text" />
+<p>Item URL:</p>
+<input name="itemurl" placeholder="Item URL" type="text" />
+<p>Street Address 1:</p>
+<input name="street1" placeholder="e.g. 123 Main Street" type="text" />
+<p>Street Address 2:</p>
+<input name="street2" placeholder="Optional address 2" type="text" />
+</div>
+
+
+<div class="right">
+<p>City:</p>
+<input name="city" placeholder="City/Town" type="text" />
+<p>Zip/Postal Code:</p>
+<input name="zip" placeholder="Zip/Postal Code" type="text" />
+<p>State:</p>
+<input name="state" placeholder="State" type="text" />
+<p>Country:</p>
+<input name="country" placeholder="Country" type="text" />
+<p>Shipping Speed:</p>
+<input name="shippingspeed" placeholder="Shipping Speed" type="text" />
+<p>Promotional Code:</p>
+<input name="promocode" placeholder="Promotional Code" type="text" />
+</div>
+
+<div class="right2">
+	<p>Additional Notes:</p>
+	<textarea cols="20" name="message" rows="5"></textarea><br />
+</div>
+	
+<div class="buttons">
+	<input id="submit" type="submit" value="COMPLETE ORDER"/>
+	<p><input id="clear" type="reset" value="Clear"/></p>
+</div>
+
+</form>
+</div>
+
+</body>
+</html>
